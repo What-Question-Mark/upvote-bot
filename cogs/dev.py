@@ -1,6 +1,5 @@
 import discord, asyncio, random, time, json, os, string
 from discord.ext import commands
-from discord.utils import get
 
 f = open('config.json')
 config = json.load(f)
